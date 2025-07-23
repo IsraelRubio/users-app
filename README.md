@@ -8,7 +8,7 @@ Este proyecto es mi primera toma de contacto con **OpenCells**, la librería de 
 
 Es una aplicación sencilla de gestión de usuarios hecha con **LitElement** y **OpenCells**. Nada del otro mundo, pero me ha servido para aprender los conceptos básicos del framework y ver cómo se integran todas las piezas.
 
-## 🛠️ Lo que hemos implementado
+## 🛠️ Lo que he implementado
 
 - **Autenticación básica** (muy básica, pero funciona)
 - **Navegación entre páginas** con el router de OpenCells
@@ -39,7 +39,7 @@ npm run dev
 npm run build
 ```
 
-## 📚 Lo que hemos aprendido
+## 📚 Lo que he aprendido
 
 ### PageController y ElementController
 Estos controladores de OpenCells están muy bien pensados. El `PageController` maneja el ciclo de vida de las páginas y la navegación, mientras que el `ElementController` se encarga de la gestión de estado y los canales de comunicación.
@@ -78,13 +78,13 @@ onPageLeave() {
 }
 ```
 
-## 🙈 Lo que sabemos que se puede mejorar
+## 🙈 Lo que sé que se puede mejorar
 
-Somos conscientes de que esto es solo el principio y hay muchísimas cosas que se pueden pulir:
+Soy consciente de que esto es solo el principio y hay muchísimas cosas que se pueden pulir:
 
 - **Autenticación real** con JWT y guards adecuados
 - **Gestión de errores** más robusta
-- **Testing** (sí, lo sabemos... 😅)
+- **Testing** (sí, lo sé... 😅)
 - **Optimización del bundle** 
 - **Mejor arquitectura** de componentes
 - **Accesibilidad** mejorada
